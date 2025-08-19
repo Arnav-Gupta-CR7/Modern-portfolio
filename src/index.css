@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+@import "tailwindcss";
+
+.myfont{
+  font-family:"Roboto", sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+@layer base{
+  * {
+    scrollbar-width: none;            /* Firefox */
+  }
+
+  *::-webkit-scrollbar {
+    display: none;                    /* Chrome, Safari, Edge */
+  }
+}
